@@ -7,73 +7,84 @@
     <script src="index.js" defer></script>
 </head>
 <body>
-   <header>
-       <div class="logo">
-           <p class="logo_1">Логотип</p>
-           <p class="logo_2">Заголовок как <br> на главной странице</p>
-       </div>
 
-       <div class="watch">
-           <img class="watch_1" src="img_2.png" alt="watch">
-           <!--<p class="watch_2">12:58</p>-->
-           <div id="clock"></div>
-       </div>
+<div class="wrapper">
+    <header>
+        <div class="logo">
+            <p class="logo_1 logotype">Логотип</p>
+            <p class="logo_2">Заголовок как <br> на главной странице</p>
+        </div>
 
-       <div class="user">
-           <img class="user_1" src="img_3.png" alt="photo">
-           <p class="user_2">Имя пользователя</p>
-       </div>
-   </header>
+        <div class="watch">
+            <img class="watch_1" src="img_2.png" alt="watch">
+            <div id="clock"></div>
+        </div>
+
+        <div class="user">
+            <img class="user_1" src="img_3.png" alt="photo">
+            <div class="user_2">Имя пользователя</div>
+        </div>
+    </header>
+    <div class="content">
+        <div class="container">
+            <div class="column html">
+                <div class="column__body">
+                    <img class="column__img" src="img_1.png" alt="HTML">
+                    <div class="column__info">
+                        <div class="column__title title">HTML</div>
+                        <p class="column__text">HTML (HyperText Markup Language — «язык гипертекстовой разметки») — самый базовый строительный блок Веба. Он определяет содержание и структуру веб-контента.</p>
+                    </div>
+                </div>
+
+                <div class="text">
+                    <p>Другие технологии, помимо HTML обычно используются для описания внешнего вида/представления (CSS) или функциональности/поведения (JavaScript) веб-страницы.</p>
+                    <p>Под гипертекстом ("hypertext") понимаются ссылки, которые соединяют веб-страницы друг с другом либо в пределах одного веб-сайта, либо между веб-сайтами. Ссылки являются фундаментальным аспектом Веба. Загружая контент в Интернет и связывая его со страницами, созданными другими людьми, вы становитесь активным участником Всемирной паутины.</p>
+                    <p>HTML использует разметку ("markup") для отображения текста, изображений и другого контента в веб-браузере. HTML-разметка включает в себя специальные "элементы", такие как и многие другие.</p>
+                </div>
+            </div>
+
+        <div class="column css">
+            <div class="column__body">
+                <img class="column__img" src="img.png" alt="CSS">
+                <div class="column__info">
+                    <div class="column__title title">CSS</div>
+                    <p class="column__text">CSS (Cascading Style Sheets) — это код, который вы используете для стилизации вашей веб-страницы.CSS (Cascading Style Sheets) — это код, который вы используете для стилизации вашей веб-страницы.</p>
+                </div>
+            </div>
+            <div class="text">
+                <p>Основы CSS помогут вам понять, что вам нужно для начала работы. Мы ответим на такие вопросы как: Как сделать мой текст черным или красным? Как сделать так, чтобы контент появлялся в определенном месте на экране? Как украсить мою веб-страницу с помощью фоновых изображений и цветов? Как и HTML, CSS на самом деле не является языком программирования. Это не язык разметки - это язык таблицы стилей. Это означает, что он позволяет применять стили выборочно к элементам в документах HTML.</p>
+            </div>
+        </div>
+    </div>
+
+        <div class="tags">
+            <div class="tags__title title">Навигационная панель</div>
+            <div class="tags__block">
+                <a href="#" class="tags__video">Видео</a>
+                <a href="#" class="tags__audio">Аудио-проигрыватель</a>
+                <a href="#" class="tags__table">Таблица тегов</a>
+                <a href="#" class="tags__calc">Калькулятор</a>
+                <a href="#" class="tags__forum">Форум</a>
+                <a href="#" class="tags__sett">Настройки</a>
+            </div>
+        </div>
+    </div>
 
 
-   <div class="container">
-       <div class="content_container">
+    <footer>
+        <div class="basic">
+            <p class="basic__logo logotype">Логотип</p>
+            <p class="basic__text"> Lorem ipsum dolor. sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+            <p class="basic__ok">Окей</p>
+        </div>
 
-          <div class="css_container">
-              <img class="thumbnail" src="img_1.png" alt="HTML">
-              <h3>HTML</h3>
-              <p>HTML (HyperText Markup Language — «язык гипертекстовой разметки») — самый базовый строительный блок Веба. Он определяет содержание и структуру веб-контента.</p>
-              <p>Другие технологии, помимо HTML обычно используются для описания внешнего вида/представления (CSS) или функциональности/поведения (JavaScript) веб-страницы.</p>
-              <p>Под гипертекстом ("hypertext") понимаются ссылки, которые соединяют веб-страницы друг с другом либо в пределах одного веб-сайта, либо между веб-сайтами. Ссылки являются фундаментальным аспектом Веба. Загружая контент в Интернет и связывая его со страницами, созданными другими людьми, вы становитесь активным участником Всемирной паутины.</p>
-              <p>HTML использует разметку ("markup") для отображения текста, изображений и другого контента в веб-браузере. HTML-разметка включает в себя специальные "элементы", такие как и многие другие.</p>
-          </div>
+        <div class="license">
+            <p class="license__year">&copy 2021</p>
+            <a href="#" class="license__href">Лицензионное соглашение</a>
+        </div>
 
-          <div class="html_container">
-              <img class="thumbnail" src="img.png" alt="CSS">
-              <h3>CSS</h3>
-              <p>CSS (Cascading Style Sheets) — это код, который вы используете для стилизации вашей веб-страницы.CSS (Cascading Style Sheets) — это код, который вы используете для стилизации вашей веб-страницы.</p>
-              <p>Основы CSS помогут вам понять, что вам нужно для начала работы. Мы ответим на такие вопросы как: Как сделать мой текст черным или красным? Как сделать так, чтобы контент появлялся в определенном месте на экране? Как украсить мою веб-страницу с помощью фоновых изображений и цветов? Как и HTML, CSS на самом деле не является языком программирования. Это не язык разметки - это язык таблицы стилей. Это означает, что он позволяет применять стили выборочно к элементам в документах HTML.</p>
-          </div>
-       </div>
+    </footer>
+</div>
 
-       <div class="tags_container">
-           <h2>Навигационная панель</h2>
-           <div class="tags_container_blocks">
-               <div class="tags_block_1">
-                   <a href="#" class="tag_video">Видео</a>
-                   <a href="#" class="tag_calc">Калькулятор</a>
-               </div>
-
-               <div class="tags_block_2">
-                   <a href="#" class="tag_audio">Аудио-проигрыватель</a>
-                   <div>
-                       <a href="#" class="tag_forum">Форум</a>
-                       <a href="#" class="tag_sett">Настройки</a>
-                   </div>
-               </div>
-
-               <div class="tags_block_3">
-                   <a href="#" class="tag_table">Таблица тегов</a>
-               </div>
-           </div>
-       </div>
-   </div>
-
-
-   <footer>
-       <p class="logo_11">Логотип</p>
-       <p class="text"> Lorem ipsum dolor. sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-       <p class="ok">Окей</p>
-   </footer>
 </body>
 </html>
