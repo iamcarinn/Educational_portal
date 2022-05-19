@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="secondPage.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Сomments</title>
+    <script src="secondPage.js" defer></script>
+
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <div class="logo">
+            <p class="logo_1 logotype">Логотип</p>
+            <p class="logo_2">Заголовок как <br> на главной странице</p>
+        </div>
+
+        <div class="menu">
+            <a href="#" class="menu__tags">Таблица тегов</a>
+            <a href="#" class="menu__video">Видео</a>
+            <a href="#" class="menu__audio">Аудио</a>
+            <a href="#" class="menu__calc">Калькулятор</a>
+        </div>
+
+
+    </header>
+
+    <div class="content">
+        <div class="content__comments comments">
+            <div class="comments__feed">
+                <div class="feed__message">
+                    <div class="header">
+                        <div class="message__owner">
+                            <img src="user_1.png" class="owner__img" alt="profile picture">
+                            <div class="owner__name">Имя автора </br> сообщения</div>
+                        </div>
+
+                        <div class="message__date">
+                            <div class="date__day">15.08.21</div>
+                            <div class="date__time">15:48</div>
+                        </div>
+                    </div>
+
+                    <div class="message__text">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo
+                    </div>
+
+                </div>
+
+                <div class="feed__message">
+
+                    <hr>
+
+                    <div class="header">
+                        <div class="message__owner">
+                            <img src="user_2.png" class="owner__img" alt="profile picture">
+                            <div class="owner__name">Имя автора сообщения</div>
+                        </div>
+
+                        <div class="message__date">
+                            <div class="date__day">15.08.21</div>
+                            <div class="date__time">15:48</div>
+                        </div>
+                    </div>
+
+                    <div class="message__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </div>
+
+                </div>
+
+                <div class="feed__message">
+
+                    <hr>
+
+                    <div class="header">
+                        <div class="message__owner">
+                            <img src="user_3.png" class="owner__img" alt="profile picture">
+                            <div class="owner__name">Имя автора сообщения</div>
+                        </div>
+
+                        <div class="message__date">
+                            <div class="date__day">15.08.21</div>
+                            <div class="date__time">15:48</div>
+                        </div>
+                    </div>
+
+                    <div class="message__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </div>
+
+                </div>
+
+                <div class="feed__message">
+
+                    <hr>
+
+                    <div class="header">
+                        <div class="message__owner">
+                            <img src="user_3.png" class="owner__img" alt="profile picture">
+                            <div class="owner__name">Имя автора сообщения</div>
+                        </div>
+
+                        <div class="message__date">
+                            <div class="date__day">15.08.21</div>
+                            <div class="date__time">15:48</div>
+                        </div>
+                    </div>
+
+                    <div class="message__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </div>
+
+                </div>
+
+            </div>
+
+            <div class="comments__new">
+                <input class="new__message" placeholder="Введите ваше сообщение">
+
+                <div class="new__anonymous">
+                    <input type="checkbox" checked>
+                    <div>Отправить сообщение анонимно</div>
+                </div>
+                <div>
+
+                </div>
+                <div class="new__sending" onclick="addComment()">
+                    <div>Отправить</div>
+                    <img alt="telegram" src="telegram.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="content__info info">
+            <div class="info__user">
+                <div class="user__basic">
+                    <img class="user_1" src="../img_3.png" alt="photo">
+                    <a href="secondPage.html" class="user_2">Имя пользователя</a>
+                </div>
+
+                <div class="user__data data">
+                    <div class="data__hb">
+                        <div class="data__img">
+                            <img src="hb.png" alt="birthday" id="hb__img">
+                        </div>
+                        <div>25.02.1995</div>
+                        <div class="placeholder">день рождения</div>
+                    </div>
+                    <div class="data__login">
+                        <div class="data__img">
+                            <img src="login.png" alt="login" id="login__img">
+                        </div>
+                        <div>User</div>
+                        <div class="placeholder">login</div>
+                    </div>
+                    <div class="data__email">
+                        <div class="data__img">
+                            <img src="email.png" alt="email" id="email__img">
+                        </div>
+                        <div>user1995@gmail.com</div>
+                        <div class="placeholder">e-mail</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info__sett">
+                <div>Настройки</div>
+                <img src="sett.png" alt="settings" id="sett__img">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="basic">
+            <p class="basic__logo logotype">Логотип</p>
+            <p class="basic__text"> Lorem ipsum dolor. sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+            <p class="basic__ok">Окей</p>
+        </div>
+
+        <div class="license">
+            <p class="license__year">&copy 2021</p>
+            <a href="#" class="license__href">Лицензионное соглашение</a>
+        </div>
+
+    </footer>
+</div>
+
+</body>
+</html>

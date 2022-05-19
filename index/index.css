@@ -1,9 +1,15 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
 .wrapper {
     min-height: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     font-family: 'Nunito';
+
 }
 
 header {
@@ -12,10 +18,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     font-size: 24px;
     color: #FFFFFF;
-
     padding: 0 180px 0 180px;
 }
 .logo,.watch,.user {
@@ -36,7 +40,7 @@ header {
 .watch_1 {
     width: 33px;
     height: 33px;
-    margin: 0 10px 0 0px;
+    margin: 0 10px 0 0;
 }
 
 #clock {
@@ -54,6 +58,11 @@ header {
     height: 50px;
     width: 50px;
     margin-right: 20px;
+}
+
+.user_2 {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 
@@ -100,6 +109,7 @@ header {
     font-weight: 700;
     color: #041122;
 }
+
 .column__title {
     margin: 0 0 10px 0;
 }
